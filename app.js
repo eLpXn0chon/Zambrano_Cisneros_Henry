@@ -44,7 +44,7 @@ const bodega = [
     {nombre: "producto 5", precio: 450, stock: 5}
 ]
 
-let caja = document.querySelector("cajavacia")
+let caja = document.querySelector("#cajavacia")
 
 bodega.forEach(item => {
     let clasecolor = "";
